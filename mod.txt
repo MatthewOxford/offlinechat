@@ -1,0 +1,12 @@
+{
+	"blt_version" : 2,
+	"name": "Offline Chat",
+	"description": "Enables chat in Offline Mode for note-taking or other things.",
+	"author": "AmbassadorLaZer",
+	"contact": "https://steamcommunity.com/id/AmbassadorLaZer/",
+	"version": "1",
+	"priority": 0,
+	"hooks": [
+		{"hook_id": "lib/managers/menumanager","script_path": "offlinechat.lua"}
+	]
+}
